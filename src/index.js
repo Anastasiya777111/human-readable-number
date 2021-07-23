@@ -1,4 +1,5 @@
 module.exports = function toReadable (number) {
+
     number = Number(number);
     if (number == 0) {
     return "zero";
@@ -38,5 +39,4 @@ module.exports = function toReadable (number) {
     result = result + " " + onenine[number % 10];
     }
     return result;
-    }
-    }
+    }}
